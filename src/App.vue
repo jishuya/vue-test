@@ -1,19 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld/>
+    <!-- <tool-bar></tool-bar> -->
+    <Toolbar></Toolbar>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Toolbar from './components/Toolbar.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Toolbar,
   }
 }
 </script>
+<style scoped>
+body {
+  padding : 0;
+  margin : 0
+}
+</style>
 
 
