@@ -1,6 +1,8 @@
 <template>
     <div>
         contact
+        {{ $store.state.name }}
+        $store.state.age
     </div>
 </template>
 
