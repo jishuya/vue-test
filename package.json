@@ -9,9 +9,15 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+<<<<<<< HEAD
     "jira-connector": "^3.1.0",
     "vue": "^2.6.11",
     "vue-router": "^3.5.3"
+=======
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.3",
+    "vuex": "^3.6.2"
+>>>>>>> e28b04fc79db9670f0b0ad6afc2a68e1bc24d5f5
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.15",
